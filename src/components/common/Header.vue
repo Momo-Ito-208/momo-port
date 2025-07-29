@@ -139,4 +139,12 @@ onBeforeUnmount(() => {
 .nav.active {
   transform: translateX(0);
 }
+
+@media (prefers-color-scheme: dark) {
+  .hamburger {
+    &__line {
+      background-color: var(--vt-c-white-soft);
+    }
+  }
+}
 </style>

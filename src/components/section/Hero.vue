@@ -33,4 +33,10 @@ h1 {
   font-weight: bolder;
   line-height: 0.9;
 }
+
+@media (prefers-color-scheme: dark) {
+  .hero {
+    background-color: rgba(111, 111, 111, 0.48);
+  }
+}
 </style>
