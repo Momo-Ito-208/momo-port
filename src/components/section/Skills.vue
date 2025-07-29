@@ -93,13 +93,14 @@ table {
 }
 
 td, th {
-  border: 1px solid rgb(234, 234, 234);
+  border: 1px solid rgb(200,200,200);
   padding: 10px 20px;
   text-align: center;
 }
 th {
   background-color: rgb(234, 234, 234);
   width: 300px;
+  color: var(--vt-c-indigo);
 }
 td {
   width: 500px;
@@ -122,6 +123,7 @@ span {
   padding: 0 10px;
   height: 1.5rem;
   text-align: center;
+  color: var(--vt-c-indigo);
 }
 
 .only-sp {
